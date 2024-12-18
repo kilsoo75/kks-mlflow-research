@@ -1,0 +1,23 @@
+# system directories
+.github
+.vscode
+.venv
+.pytest_cache
+.ruff_cache
+.git
+.gitignore
+.config
+.pytest.ini
+.pre-commit-config.yaml
+
+# test code directories
+tests
+charts
+
+# python cache directories
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+
+# etc
+LICENSE
